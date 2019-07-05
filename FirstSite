@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Page</title>
+        <style>
+            table {
+                width:100%; 
+            
+ } 
+
+
+             body { 
+         
+                background-color:#000099; 
+            
+                color:; 
+        
+                width:100%; 
+
+            } 
+ 
+ 
+
+            .smain{ 
+         
+         
+                background-color:white; 
+         
+                color:grey; 
+         
+                text-align:; 
+         
+                width:100%; 
+ 
+            } 
+ 
+ 
+            
+            span{ 
+         
+                color:#007fff; 
+             
+                font-family:Arial; 
+         
+                text-align:; 
+         
+                font-size:28px; 
+         
+                font-weight:bolder; 
+         
+                text-align:center; 
+         
+                width:100%; 
+ 
+            } 
+ 
+ 
+            
+            .ins{ 
+         
+                color:blue; 
+         
+                text-align:center; 
+         
+                font-weight:none; 
+         
+                font-size:20px; 
+         
+                text-decoration:none; 
+         
+                width:100%;   
+         
+            } 
+         
+ 
+
+            .td{ 
+         
+                color:blue; 
+         
+                font-weight:bolder; 
+         
+                font-size:28px; 
+         
+                width:100%; 
+         
+                text-align:center; 
+ 
+            } 
+ 
+ 
+        
+            .link1{ 
+         
+                color:#0000ff; 
+         
+                text-align:right; 
+         
+                font-size:20px; 
+         
+                text-decoration:none;     
+                width:100px; 
+         
+                font-weight:bolder; 
+ 
+            } 
+ 
+ 
+
+            .link2{ 
+         
+                color:blue;
+         
+                text-align:right; 
+         
+                font-size:20px; 
+         
+                text-decoration:none;     
+         
+                text-indent:6px;     
+         
+                font-weight:bolder; 
+         
+ 
+            } 
+ 
+ 
+            div{ 
+         
+                text-align:center; 
+         
+                width:100%;
+                margin-right:15px; 
+         
+ 
+            } 
+ 
+ 
+            
+            .s{ 
+         
+         
+                text-align:right; 
+ 
+            } 
+ 
+ 
+            
+            a:link{ 
+         
+                text-decoration:none; 
+ 
+            } 
+ 
+ 
+        
+            #search{ 
+         
+                background-color:#eeeeee; 
+         
+                color:#333333; 
+         
+                text-align:center; 
+         
+                width:100%; 
+         
+                font-style:italic; 
+ 
+            } 
+ 
+ 
+        
+            d1{ 
+         
+                width:50%; 
+ 
+            } 
+ 
+ 
+
+            li{ 
+         
+        
+                color:white; 
+         
+                font-size:3px;
+         
+                list-style-type:none; 
+ 
+            } 
+ 
+ 
+            
+            .table2{
+         
+                background-color:#007fff; 
+         
+                color:blue; 
+ 
+            } 
+ 
+ 
+
+            .a{ 
+         
+         
+                color:white;
+                font-size:20px;
+
+                height:100%; 
+ 
+            } 
+ 
+
+
+            .table2 td:hover{
+                background-color:#000099;
+                height:100%;
+            }
+    
+            .table3{ 
+         
+                width:100%; 
+ 
+            } 
+ 
+ 
+
+            img{ 
+         
+                height:450px; 
+         
+                font-size:30px; 
+
+                width:330px;        
+            
+} 
+ 
+ 
+
+            h1{ 
+         
+                width:100%; 
+         
+                color:#007fff; 
+         
+                font-weight:bolder; 
+         
+                text-align:center; 
+          
+                margin:none;
+                border:none;
+                text-indent:-35px;     
+            } 
+ 
+ 
+
+            p{ 
+         
+                font-size:20px;
+                
+text-align:justify;
+                margin-right:50px;
+                margin-left:-35px;
+            } 
+ 
+ 
+            
+            .div1{ 
+         
+                background-color:#000099; 
+         
+                margin:none; 
+         
+                padding-right:none; 
+         
+                margin-right:none; 
+         
+                height:350px; 
+         
+                width:100%; 
+         
+                border-radius:20px;
+                
+            } 
+ 
+ 
+
+            #submit{ 
+         
+                background-color:orange; 
+         
+                border-radius:20px; 
+         
+                border:3px solid #000099; 
+                font-size:20px;
+
+                        
+ 
+            } 
+ 
+ 
+
+            .p2{ 
+         
+                color:white; 
+         
+                font-size:25px;
+                text-align:center;
+
+                text-indent:70px;        
+         
+ 
+            }
+
+            .input{ 
+         
+                color:grey; 
+         
+                font-size:25px; 
+         
+                text-align:center; 
+         
+                border-radius:20px; 
+         
+                border:2px solid #000099; 
+ 
+            } 
+ 
+ 
+ 
+ 
+        
+            .form{ 
+         
+                width:100%; 
+         
+                text- indent:; 
+         
+ 
+            } 
+
+        </style>
+    </head>
+    <body>
+        <div class="smain">
+
+            <table>
+                <tr>
+                <td class="td">
+                    <span>Ubagu</span>Global<span>Ventures</span>
+                </td>
+
+                <td class="link1">
+                    <a href="#">Policyholder Login</a>    
+                
+                </td>
+                <td class="link2">
+                    <a id="ab" href="#">Agent Login</a>
+                </td>
+                </tr>
+
+                <tr>
+                <td class="ins">LIMITED</td>
+                <td colspan="2" align="right">
+                    <input id="search" type="search" name="search" placeholder="Search" />
+                </td>
+                </tr>
+            </table>
+
+            <table class="table2">
+                
+                <tr>
+                <td>
+                    <ul>
+                    <li>
+                        <a class ="a" href="#">HOME</a>
+                    </li>
+                    </ul>
+                </td>
+                
+                <td>
+                    <ul>
+                    <li>
+                        <a class ="a" href="#">PRODUCT</a>
+                    </li>
+                    </ul>
+                </td>
+                
+                <td>
+                    <ul>
+                    <li>
+                        <a class ="a" href="#">ABOUT US</a>
+                    </li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                    <li>
+                        <a class ="a" href="#">CONTACTS</a>
+                    </li>
+                    </ul>
+                </td>
+                </tr>
+        </table>
+        
+        <table class="table3">
+ 
+                
+                        <tr> 
+                           
+                   <td> 
+                                       
+              <img  src = "photo.png "   alt = "Image=�h�
+ "   class = "img" /> 
+         
+                               </td>   
+                            
+               
+            <td>
+                                          <div class="acc_H">
+             <h1 id="a">Accidents Happen</h1>
+    <p>
+        Even when you are doing everything right, accidents can happen. 
+        The best thing you can do is partner with a workers' compensation carrier that will handle 
+        your claim quickly and efficiently to get your employees the benefits they deserve. 
+    </p> 
+                            
+              </div>
+            </td> 
+                               
+  
+                                           <td> 
+               
+                                  
+    <div class = "div1"> 
+                     
+                        <form action = " # "   class = " form "> <br/> 
+      
+         <p class = "p2">Register Here </p>                                   
+         
+<input class = "input" type = "text" name = "firstname" placeholder = "FirstName" /> <br/> 
+        
+<input class = "input" type= "text" name= "lastname" placeholder = "LastName" /> <br/>
+
+<input class = "input" type = "text" name=" username " placeholder="UserName " required />     <br/> 
+       
+<input class = "input" type = "password"   name = "password" placeholder="Password" required /> <br/> 
+    
+     <input class = "input" type= "text" name= "@gmail" placeholder= "Email Address" required /> <br/> 
+           
+<input  id="submit" type="submit" name="submit" placeholder="Sign up" /> 
+                                             
+                                         
+        </form> 
+     
+                      </div>       
+    
+                               </td> 
+                        
+   </tr> 
+      
+             </table> 
+          
+         
+                   
+        </div>
+
+    <script>
+        function a(){
+                var change = document.getElementById("a");
+                change.innerHTML = "Stay Healthy Always";
+            }
+        setInterval(a,3000);
+    </script>
+    </body> 
+ 
+</html> 
+         
+              
